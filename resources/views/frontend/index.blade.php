@@ -355,61 +355,61 @@
         </div>
     </div>
 
-    <div id="myModal" class="modal">
-        <div class="modal-content" style="border-radius: 10px">
-            <div style="background-color: rgba(0,0,0,0.78); padding: 3px; border-radius: 5px">
-                <span class="close" id="dont-show-again">&times;</span>
-                <img src="/img/verarkargo-bayram.png">
-            </div>
-        </div>
-    </div>
-    <!-- JavaScript -->
-    <script>
-        // Modal kutusunu açma fonksiyonu
-        function openModal() {
-            var modal = document.getElementById("myModal");
-            modal.style.display = "block";
-        }
+{{--    <div id="myModal" class="modal">--}}
+{{--        <div class="modal-content" style="border-radius: 10px">--}}
+{{--            <div style="background-color: rgba(0,0,0,0.78); padding: 3px; border-radius: 5px">--}}
+{{--                <span class="close" id="dont-show-again">&times;</span>--}}
+{{--                <img src="/img/verarkargo-bayram.png">--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--    <!-- JavaScript -->--}}
+{{--    <script>--}}
+{{--        // Modal kutusunu açma fonksiyonu--}}
+{{--        function openModal() {--}}
+{{--            var modal = document.getElementById("myModal");--}}
+{{--            modal.style.display = "block";--}}
+{{--        }--}}
 
-        // Modal kutusunu kapama fonksiyonu
-        function closeModal() {
-            var modal = document.getElementById("myModal");
-            modal.style.display = "none";
-        }
+{{--        // Modal kutusunu kapama fonksiyonu--}}
+{{--        function closeModal() {--}}
+{{--            var modal = document.getElementById("myModal");--}}
+{{--            modal.style.display = "none";--}}
+{{--        }--}}
 
-        // Sayfa yüklendiğinde modal kutusu açılacak, ancak kullanıcının daha önce "bir daha gösterme" düğmesine tıklamışsa açılmayacak
-        window.onload = function() {
-            var dontShowAgainButton = document.getElementById("dont-show-again");
-            dontShowAgainButton.onclick = function() {
-                // 10 dakika geçerli olacak bir çerez ayarla
-                var expirationDate = new Date();
-                expirationDate.setTime(expirationDate.getTime() + (1 * 60 * 1000));
-                document.cookie = "hideModal=true; expires=" + expirationDate.toUTCString() + "; path=/";
-                closeModal();
-            }
+{{--        // Sayfa yüklendiğinde modal kutusu açılacak, ancak kullanıcının daha önce "bir daha gösterme" düğmesine tıklamışsa açılmayacak--}}
+{{--        window.onload = function() {--}}
+{{--            var dontShowAgainButton = document.getElementById("dont-show-again");--}}
+{{--            dontShowAgainButton.onclick = function() {--}}
+{{--                // 10 dakika geçerli olacak bir çerez ayarla--}}
+{{--                var expirationDate = new Date();--}}
+{{--                expirationDate.setTime(expirationDate.getTime() + (1 * 60 * 1000));--}}
+{{--                document.cookie = "hideModal=true; expires=" + expirationDate.toUTCString() + "; path=/";--}}
+{{--                closeModal();--}}
+{{--            }--}}
 
-            if (document.cookie.indexOf("hideModal=true") === -1) {
-                openModal();
-            }
-        }
+{{--            if (document.cookie.indexOf("hideModal=true") === -1) {--}}
+{{--                openModal();--}}
+{{--            }--}}
+{{--        }--}}
 
-        // Kapatma düğmesine tıklandığında modal kutusu kapanacak
-        var closeButton = document.getElementsByClassName("close")[0];
-        closeButton.onclick = function() {
-            closeModal();
-        }
+{{--        // Kapatma düğmesine tıklandığında modal kutusu kapanacak--}}
+{{--        var closeButton = document.getElementsByClassName("close")[0];--}}
+{{--        closeButton.onclick = function() {--}}
+{{--            closeModal();--}}
+{{--        }--}}
 
-        // Ekran boyutu değiştiğinde modal kutusunu ortalamak için
-        window.onresize = function() {
-            var modal = document.getElementById("myModal");
-            var modalContent = document.getElementsByClassName("modal-content")[0];
-            modalContent.style.top = Math.max((window.innerHeight - modalContent.offsetHeight) / 2, 0) + "px";
-            modalContent.style.left = Math.max((window.innerWidth - modalContent.offsetWidth) / 2, 0) + "px";
-        }
+{{--        // Ekran boyutu değiştiğinde modal kutusunu ortalamak için--}}
+{{--        window.onresize = function() {--}}
+{{--            var modal = document.getElementById("myModal");--}}
+{{--            var modalContent = document.getElementsByClassName("modal-content")[0];--}}
+{{--            modalContent.style.top = Math.max((window.innerHeight - modalContent.offsetHeight) / 2, 0) + "px";--}}
+{{--            modalContent.style.left = Math.max((window.innerWidth - modalContent.offsetWidth) / 2, 0) + "px";--}}
+{{--        }--}}
 
-        // Modal kutusunu ortalamak için
-        window.onresize();
-    </script>
+{{--        // Modal kutusunu ortalamak için--}}
+{{--        window.onresize();--}}
+{{--    </script>--}}
 
     @include('frontend.includes.businesspartner')
     <div class="w100">
