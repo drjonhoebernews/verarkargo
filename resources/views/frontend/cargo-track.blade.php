@@ -16,7 +16,7 @@
                 <section>
                     <form action="/gonderi-takip-sonuc" method="post">
                         @csrf
-                        <textarea required="required" name="trackcodes" class="input" id="trackcodes" cols="500" rows="5" style="height:150px;" placeholder=" Gönderi takip numaranızı giriniz... "></textarea>
+                        <textarea required="required" name="trackcodes" class="input" id="trackcodes" cols="500" rows="5" style="height:150px;" placeholder=" Gönderi takip numaranızı giriniz... " aria-required="true"></textarea>
                         <button id="send" class="button">Sorgula</button>
                     </form>
                 </section>

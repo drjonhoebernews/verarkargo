@@ -24,14 +24,16 @@
 
     
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
-
     @stack('after-styles')
     <script src="{{ asset('js/main.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
 
     <x-google-analytics />
 </head>
-
-<body oncontextmenu="return false;">
+{{--oncontextmenu="return false;"--}}
+<body>
 
     @include('frontend.includes.header')
 
