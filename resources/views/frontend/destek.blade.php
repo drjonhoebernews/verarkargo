@@ -22,7 +22,7 @@
                     </tr>
                     </tbody>
                 </table>
-                <p>0850 270 03 34 - <a href="mailto:kargo@verarkargo.com.tr"><span class="__cf_email__" data-cfemail="9af9e9daeaeee9b4f4ffee">kargo@verarkargo.com.tr</span></a></p>
+                <p>0850 270 03 34 - <a href="mailto:kargo@verarkargo.com.tr"><span class="__cf_email__">kargo@verarkargo.com.tr</span></a></p>
                 <p></p>
                 <p>Şikayetleri ele alma politikamız için lütfen <strong><a data-fancybox="" data-src="#modal">tıklayınız</a></strong>.</p>
                 <div style="display: none; width: 50%;" id="modal">

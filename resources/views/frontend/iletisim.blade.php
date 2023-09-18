@@ -8,7 +8,7 @@
         <div class="sub-hero"><img src="{{asset('img/images/header-image.jpg')}}" alt="{{ config('app.name') }}" /></div>
         <div class="wrap">
             <div class="page-title page-title-left"><strong>İletişim Bilgileri </strong></div>
-            <div class="page-about page-about-left">Destek hattı: 0850 270 03 34 – <a href="mailto:kargo@verarkargo.com.tr"><span class="__cf_email__" data-cfemail="dbb8a89babafa8f5b5beaf">kargo@verarkargo.com.tr</span></a> <br />Gönderileriniz ile ilgili soru ve talepleriniz için uzman ekiplerimizden destek alabilirsiniz.<br /><br /><strong>Verar Kargo L.T.D</strong><br /><strong>E-posta Adresleri</strong> <br />
+            <div class="page-about page-about-left">Destek hattı: 0850 270 03 34 – <a href="mailto:kargo@verarkargo.com.tr"><span class="__cf_email__">kargo@verarkargo.com.tr</span></a> <br />Gönderileriniz ile ilgili soru ve talepleriniz için uzman ekiplerimizden destek alabilirsiniz.<br /><br /><strong>Verar Kargo L.T.D</strong><br /><strong>E-posta Adresleri</strong> <br />
                 <table>
                     <tbody>
                     <tr>
@@ -34,7 +34,7 @@
                     <tr>
                         <td>İK</td>
                         <td style="width: 15px; text-align: center;">:</td>
-                        <td><a href="mailto:ik@verarkargo.com.tr"><span class="__cf_email__" data-cfemail="274e4c6757535409494253">ik@verarkargo.com.tr</span></a></td>
+                        <td><a href="mailto:ik@verarkargo.com.tr"><span class="__cf_email__">ik@verarkargo.com.tr</span></a></td>
                     </tr>
                     </tbody>
                 </table>
