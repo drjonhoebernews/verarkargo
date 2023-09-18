@@ -14,22 +14,22 @@
                     <tr>
                         <td>Müşteri Hizmetleri</td>
                         <td style="width: 15px; text-align: center;">:</td>
-                        <td><a href="mailto:musteri@verarkargo.com.tr"><span class="__cf_email__" data-cfemail="b4d7c7f4c4c0c79adad1c0">musteri@verarkargo.com.tr</span></a></td>
+                        <td><a href="mailto:musteri@verarkargo.com.tr"><span class="__cf_email__" >musteri@verarkargo.com.tr</span></a></td>
                     </tr>
                     <tr>
                         <td>Satış</td>
                         <td style="width: 15px; text-align: center;">:</td>
-                        <td><a href="mailto:satis@verarkargo.com.tr"><span class="__cf_email__" data-cfemail="e29183968b91a2929691cc8c8796">satis@verarkargo.com.tr</span></a></td>
+                        <td><a href="mailto:satis@verarkargo.com.tr"><span class="__cf_email__" >satis@verarkargo.com.tr</span></a></td>
                     </tr>
                     <tr>
                         <td>İthalat</td>
                         <td style="width: 15px; text-align: center;">:</td>
-                        <td><a href="mailto:ithalat@verarkargo.com.tr"><span class="__cf_email__" data-cfemail="28414558475a5c68585c5b06464d5c">ithalat@verarkargo.com.tr</span></a></td>
+                        <td><a href="mailto:ithalat@verarkargo.com.tr"><span class="__cf_email__" >ithalat@verarkargo.com.tr</span></a></td>
                     </tr>
                     <tr>
                         <td>Muhasebe</td>
                         <td style="width: 15px; text-align: center;">:</td>
-                        <td><a href="mailto:muhasebe@verarkargo.com.tr"><span class="__cf_email__" data-cfemail="4d2038252c3e282f280d3d393e63232839">muhasebe@verarkargo.com.tr</span></a></td>
+                        <td><a href="mailto:muhasebe@verarkargo.com.tr"><span class="__cf_email__">muhasebe@verarkargo.com.tr</span></a></td>
                     </tr>
                     <tr>
                         <td>İK</td>
