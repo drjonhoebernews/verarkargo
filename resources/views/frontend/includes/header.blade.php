@@ -25,7 +25,7 @@
                         <a href="http://kargotakip.verarkargo.com.tr/" target="_blank">Kurumsal Şube</a>
                     </li>
                     <li>
-                        <a href="http://webpostman.verarkargo.com.tr:9999/user/login" target="_blank" class="verar-cmapps">Bireysel Şube</a>
+                        <a href="https://webpostman.verarkargo.com.tr:543/user/login" target="_blank" class="verar-cmapps">Bireysel Şube</a>
                     </li>
                 </ul>
             </div>

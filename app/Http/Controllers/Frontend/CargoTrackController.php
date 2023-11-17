@@ -22,7 +22,7 @@ class CargoTrackController extends Controller
     {
         $kod = $request->trackcodes;
         error_reporting(0);
-        $url = 'http://kargotakip.verarkargo.com.tr/hareket_service?har_kod='.$kod;
+        $url = 'https://webpostman.verarkargo.com.tr:543/tracking?har_kod='.$kod;
         $json = file_get_contents($url, false);
 
         log::info($json);
